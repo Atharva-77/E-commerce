@@ -1,0 +1,160 @@
+:root
+{
+    --dark-yellow: #fbbd69;
+    --white: white;
+    --dark-blue: rgb(106, 195, 247);
+}
+.header
+{
+    height: 55px; /*Fix the ht. of header. Now when padding applied to img,header dosen't grow*/
+    /*1. background-color: black; */ background-color: #374151;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky; /*Sticks*/
+    top:0; /*Positioned at top*/
+    z-index: 100;
+
+}
+
+
+.header img {
+    /* 1object-fit: contain;acpect ratio not comprimised */
+    /*2. width: 100px; */
+
+    /* margin: 0 20px;
+    margin-top: 15px; */
+    /* height: 50px; */
+
+    /*3,4 padding-top: 18px;
+    padding-left: 20px;  */
+ 
+    object-fit: contain;
+    width: 72px;
+    padding-top: 4px;
+    padding-left: 39px
+}
+
+.header .header_search
+{
+    padding-left: 20px;
+    display: flex;
+    /* flex:1; */
+    align-items: center;
+}
+.header_search .header_input
+{
+    
+   height: 22px;
+   width: 450px;
+   border: none;
+   /* border-radius: 0.05rem; */
+}
+.header_search .header_searchIcon
+{
+    background-color: var(--dark-blue);
+    height: 18px !important;
+    padding: 3px;
+    border-right: 3px solid #374151;
+}
+
+.header_search .header_searchIcon_Img
+{
+    background-color: var(--dark-blue);
+    height: 18px !important;
+    padding: 3px;
+    padding-right: 0px;
+    /* border-right: 3px solid #374151; */
+}
+
+
+.header_rightnav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_rightSubpart
+{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    /* margin-right: 15px; */
+
+}
+
+.header_rightnav .lineOne
+{
+    font-size: 13px;
+}
+.header_rightnav .lineTwo
+{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.shopping_cart
+{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+.shopping_cart .shoppingIcon
+{
+    height: 30px !important;
+    padding-left: 3px;
+}
+.shopping_cart .basketCount
+{
+    padding-right: 20px;
+    padding-left: 3px;
+}
+.dropdownimage{
+    margin: 10px;
+}
+.arrow_icon
+{
+    color: var(--white);
+    /* height: 45px !important; */
+    transform: scale(1.4);
+    padding-left: 0px;
+    padding-right: 4px;
+   
+  
+}
+.arrow_iconCamera
+{
+    color: var(--white);
+    /* height: 45px !important; */
+    /* transform:    scale(1.4); */
+   
+    background-color: var(--dark-blue);
+    /* height: 18px !important; */
+    /* padding: 3px; */
+    /* border-right: 3px solid #374151; */
+    /* font-size: 20px !important; */
+    margin-top: 4px;
+}
+
+.drop{
+    background-color: #374151;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: auto;
+    position: relative;
+}
+
+.dropImage{
+    background-color: #374151;
+    cursor: pointer;
+    color: black;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: auto;
+    position: relative;
+}

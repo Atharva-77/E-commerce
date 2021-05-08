@@ -1,0 +1,72 @@
+.checkout
+{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+
+}
+.shopping_title
+{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.subtotalcompo{
+    float: right;
+    /* padding-left: 90vh; */
+}
+
+
+/* 
+.checkout_ad
+{
+    width:100%;
+    margin-bottom: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+/* .checkout
+{
+    display: flex;
+    background-color: white;
+
+    padding: 15px;
+
+}
+
+.shopping_title
+{
+    padding-left: 30px;
+}
+
+.subtotalcompo
+{
+    float:right;
+}
+ */
+
+/* .shopping
+{ */
+    /* background-color: lightsalmon; */
+    /* padding-left: 100px; */
+/* } */
+
+
+/* 
+.shopping_title
+{
+    border-bottom: 1px solid lightgray;
+} */
