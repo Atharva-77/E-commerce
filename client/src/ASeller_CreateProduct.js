@@ -473,6 +473,12 @@ function ASeller_CreateProduct() {
                                     <option value="4">4- Okay</option>
                             </select>
 
+                            <h2>Ram</h2>
+                            <input placeholder="Enter Ram of the phone in GB"/>
+
+                            <h2>Storage</h2>
+                            <input placeholder="Enter Storage of the phone in GB"/>
+
                             <button className="create_acc" onClick={price_predict} >Predict Price</button>
                             <br />
                        </>
