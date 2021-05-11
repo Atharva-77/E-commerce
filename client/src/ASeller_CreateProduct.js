@@ -104,7 +104,7 @@ function ASeller_CreateProduct() {
 
             console.log("check_Image_Seacrh_Data:",ImageSearchData)
             
-            axios.post("https://ecommerce-imagesearch.herokuapp.com/extract_features",ImageSearchData)
+            axios.post("http://localhost:7064/extract_features",ImageSearchData)
             .then(
                     res=>
                     {
