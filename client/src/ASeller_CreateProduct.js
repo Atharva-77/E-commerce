@@ -15,8 +15,8 @@ function ASeller_CreateProduct() {
     var fileTypes = [".jpg", ".png", ".jpeg"];
 
     const [Name, setName] = useState('')
-    const [category, setCategory] = useState('');
-    const [brand, setBrand] = useState('');
+    const [category, setCategory] = useState('Phone');
+    const [brand, setBrand] = useState('1');
 
     const [description, setDescription] = useState('');
     const [imageURL, setImageURL] = useState('');
@@ -427,7 +427,7 @@ function ASeller_CreateProduct() {
                        
                         <>
                             <h2>Brand</h2>
-                              <input value={brand} onChange={onBrand} placeholder="Enter Brand"/>
+                              <input value='' onChange={onBrand} placeholder="Enter Brand"/>
 
                         </>
                      :

@@ -63,7 +63,7 @@ function ASeller_Product() {
                     setreload(!reload)
                 })
 
-            axios.delete(`/imgFeature/deleteFeature/${id}`,config)
+            axios.delete(`http://localhost:4000/imgFeature/deleteFeature/${id}`,config)
             .then(res => 
                 {
                     console.log("feature deleted",res.data)
