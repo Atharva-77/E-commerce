@@ -427,7 +427,7 @@ function ASeller_CreateProduct() {
                        
                         <>
                             <h2>Brand</h2>
-                              <input value='' onChange={onBrand} placeholder="Enter Brand"/>
+                              <input value={brand} onChange={onBrand} placeholder="Enter Brand"/>
 
                         </>
                      :
