@@ -110,7 +110,7 @@ function Header() {
                         "img_link":url
                     }
                     console.log("/check_Image_Search_Data header:",ImageSearchData)
-                    axios.post("http://localhost:7064/image_search",ImageSearchData)
+                    axios.post("hhttps://buytes.herokuapp.com/image_search",ImageSearchData)
                     .then(
                             res=>
                             {

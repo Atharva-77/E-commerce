@@ -63,13 +63,13 @@ function ASeller_Product() {
                     setreload(!reload)
                 })
 
-            axios.delete(`http://localhost:4000/imgFeature/deleteFeature/${id}`,config)
+            axios.delete(`/imgFeature/deleteFeature/${id}`,config)
             .then(res => 
                 {
                     console.log("feature deleted",res.data)
                 })
                 
-            axios.post(`http://localhost:7064/delete_product`,flaskDeleteProd)
+            axios.post(`https://buytes.herokuapp.com/delete_product`,flaskDeleteProd)
             .then(res => 
                 {
                     console.log("flask feature deleted",res.data)
