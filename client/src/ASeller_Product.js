@@ -69,7 +69,7 @@ function ASeller_Product() {
                     console.log("feature deleted",res.data)
                 })
                 
-            axios.post(`https://buytes.herokuapp.com/delete_product`,flaskDeleteProd)
+            axios.post(`http://localhost:5000/delete_product`,flaskDeleteProd)
             .then(res => 
                 {
                     console.log("flask feature deleted",res.data)
