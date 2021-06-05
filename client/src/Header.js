@@ -110,7 +110,7 @@ function Header() {
                         "img_link":url
                     }
                     console.log("/check_Image_Search_Data header:",ImageSearchData)
-                    axios.post("https://ecommerce-imagesearch.herokuapp.com/image_search",ImageSearchData)
+                    axios.post("https://e-commerce-imagesearch.vercel.app/image_search",ImageSearchData)
                     .then(
                             res=>
                             {

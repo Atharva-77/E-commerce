@@ -69,7 +69,7 @@ function ASeller_Product() {
                     console.log("feature deleted",res.data)
                 })
                 
-            axios.post(`https://ecommerce-imagesearch.herokuapp.com/delete_product`,flaskDeleteProd)
+            axios.post(`https://e-commerce-imagesearch.vercel.app/delete_product`,flaskDeleteProd)
             .then(res => 
                 {
                     console.log("flask feature deleted",res.data)
